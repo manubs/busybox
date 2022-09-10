@@ -10,7 +10,7 @@ We can use this docker image as side car container for troubleshooting purposes.
 
 git clone https://github.com/manubs/busybox.git
 
-#Kubernetes Manifest 
+# Kubernetes Manifest 
 ---
 apiVersion: v1
 kind: Pod
