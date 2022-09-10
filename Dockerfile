@@ -1,4 +1,8 @@
+#Install Busy box and Alpine base image 
 FROM alpine:3
+#Set the Maintainer
+MAINTAINER Manoj Bangari
+#Set of Run Instructions 
 RUN apk update && \
     apk add tar && \
     apk add bind-tools && \
@@ -15,3 +19,5 @@ RUN apk update && \
     apk add --update coreutils && rm -rf /var/cache/apk/*   && \ 
     apk add --update openjdk11 tzdata curl unzip bash && \
     apk add --no-cache nss 
+#Command Instruction    
+CMD ["sh", "-c", "tail -f /dev/null"]
