@@ -32,8 +32,6 @@ spec:
   containers:
   - image: manubs/alpine:2.0
     name: alpine
-    command: [ "/bin/sh", "-c", "--" ]
-    args: [ "while true; do sleep 30; done;" ]
     resources:    
       requests:
         memory: "500Mi"
