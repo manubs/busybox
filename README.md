@@ -1,12 +1,12 @@
 # Busybox
 
-Project Details
+# Project Details
 
 This project was initially build for debugging and troubleshooting application on container.
 We can use this docker image as side car container for troubleshooting purposes.
 
 
-#Installation
+# Installation
 
 git clone https://github.com/manubs/busybox.git
 
@@ -32,5 +32,5 @@ spec:
         cpu: "1"
 
 
-#Contact
+# Contact
 Your Name - manojbangari39@gmail.com
