@@ -5,6 +5,17 @@
 This project was initially build for debugging and troubleshooting application on container.
 We can use this docker image as side car container for troubleshooting purposes.
 
+# Packages Installed 
+
+1.htop
+2.nslookup
+3.traceroute
+4.nc
+5.dig
+6.grpcurl
+7.jstack
+
+Additional Busy box 300+ commands has been embedded into the image.
 
 # Installation
 
